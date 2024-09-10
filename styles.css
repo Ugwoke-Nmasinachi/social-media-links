@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+.wrapper{
+    border: 1px solid black;
+    width: 320px;
+    margin:100px auto 0 auto;/*brings the box to the center*/
+    text-align: center; /*puts the content(picture, links) in the center*/
+    padding: 40px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 12%);
+}
+/*the media query is to adjust the position of the box for different devices. that's why it is targeting the margin-top of the wrapper(box)*/
+@media screen and (width > 400px) and (width < 750px) {
+    .wrapper{
+        margin-top: 130px;
+    }
+}
+@media screen and (width < 400px) {
+    .wrapper{
+        margin-top: 100px;
+    }
+}
+@media screen and (width > 750px) {
+    .wrapper{
+        margin-top: 400px;
+    }
+}
+figure img{
+    width: 70px;
+    border-radius: 50%;/*makes the image round*/
+}
+h3{
+    color: hsl(0, 0%, 100%);
+    padding-block: 15px 10px;
+}
+#para1{
+    font-size: 12px;
+    color: hsl(75, 94%, 57%);
+
+}
+#para2{
+    font-size: 12px;
+    padding-block:15px 20px;
+    color: hsl(0, 0%, 80%);
+}
+.social-media-links a button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-size: 11px;
+    background-color: hsl(0, 0%, 20%);
+}
+
