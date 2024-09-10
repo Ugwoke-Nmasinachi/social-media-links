@@ -63,4 +63,9 @@ h3{
     font-size: 11px;
     background-color: hsl(0, 0%, 20%);
 }
+.social-media-links a button:active{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+}
 
