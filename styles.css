@@ -31,7 +31,7 @@ body{
 }
 @media screen and (width > 750px) {
     .wrapper{
-        margin-top: 400px;
+        margin-top: 150px;
     }
 }
 figure img{
